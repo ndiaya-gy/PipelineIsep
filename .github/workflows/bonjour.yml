@@ -30,7 +30,7 @@ jobs:
         uses: actions/checkout@v7
 
       - name: Lire un fichier
-        run: cat fichier-inexistant.txt
+        run: cat README.md
 
       - name: Lister les fichiers après
         run: ls -la
